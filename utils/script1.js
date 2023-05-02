@@ -10,6 +10,9 @@ console.log(typeof(var1));
 console.log(var2); 
 console.log(typeof(var2)); 
 
+const id = Symbol('id');                //Type of data type
+console.log(id, typeof id);
+
 let reply = 'Hey, Im fine.';
 console.log('Hey', 'hows you?', reply);  //By this we can output multiple values
 
