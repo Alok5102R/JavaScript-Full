@@ -1,4 +1,4 @@
-//TYPE CONVERSION
+//TYPE CONVERSION & TYPE COERCION
 
 //Convert String to Number
 
@@ -38,3 +38,15 @@ console.log(Math.sqrt(-1));
 console.log(1+NaN);
 console.log(undefined+undefined);
 console.log('foo' / 3);
+
+// Type Coercion
+
+let x;
+x = 5 + '5';      //It will be assumed as string and Concatenation will happen
+x = 5 * '5';      //* operator doesn't make sense with string, so it will be assumed as number
+x = 5 + null;     //null gets assumed as zero in this case
+x = 5 + true;     //true -> 1, so 1 will be assumed here
+x = 5 + false;    //false -> 0, so 0 will be assumed here
+x = 5 * undefined;//Anything operated with undefined will give NaN 
+
+console.log(x, typeof x);
