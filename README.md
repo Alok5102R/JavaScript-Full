@@ -1,4 +1,4 @@
-# JavaScript Advanced Cncepts
+# JavaScript Advanced Concepts
  This repository is designed to cover Java Script beginner to advanced concepts in one go.
 
  ### Contributions to this repo are welcome
